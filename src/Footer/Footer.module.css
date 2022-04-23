@@ -1,0 +1,33 @@
+.footer{
+    height: 220px;
+    background-color: #9b9c9f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerBlock {
+    width: 80%;
+    height: 80%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.socialBlock {
+    min-width: 350px;
+    height: 50px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    background-color: #9ad9c6;
+    border: 1px solid;
+}
+.footer h3 {
+    margin: 0;
+}

@@ -1,0 +1,44 @@
+.contactBlock {
+    background-color: #538877;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact {
+    /*width: 80%;*/
+    /*height: 500px;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+.formBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+    width: 80%;
+    border: 1px solid;
+}
+
+.formBlock input, textarea {
+    width: 300px;
+}
+
+.formBlock input {
+    height: 30px;
+}
+
+.formBlock textarea {
+    height: 100px;
+}
+
+.formBlock button {
+    width: 150px;
+    height: 50px;
+}
+
+
