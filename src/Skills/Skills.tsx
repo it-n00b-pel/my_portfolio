@@ -13,7 +13,8 @@ const Skills = () => {
                     <Skill title={"HTML"}/>
                     <Skill title={"JS"}/>
                     <Skill title={"CSS"}/>
-                  
+                    <Skill title={"React"}/>
+
                 </div>
                 <span className={style.description}>{}</span>
             </div>

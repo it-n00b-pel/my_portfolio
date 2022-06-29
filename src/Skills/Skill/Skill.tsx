@@ -10,7 +10,7 @@ const Skill = (props: SkillPropsType) => {
         <div className={style.skill}>
             <div className={style.icon}></div>
             <h3>{props.title}</h3>
-            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. U </span>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
         </div>
     );
 };

@@ -1,5 +1,5 @@
 .worksBlock {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #9ad9c6;
 }
 .worksContainer {
@@ -17,4 +17,5 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 20px;
 }
