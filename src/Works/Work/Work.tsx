@@ -11,9 +11,9 @@ const Work = (props: WorkPropsType) => {
     return (
         <div className={style.work}>
             <div className={style.worksPhotoContainer}>
-                <div className={style.imgContainer}>
+                {/*<div className={style.imgContainer}>*/}
                     <a href="">Watch</a>
-                </div>
+                {/*</div>*/}
 
             </div>
             <h3 >{props.title}</h3>
