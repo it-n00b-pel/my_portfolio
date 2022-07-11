@@ -1,15 +1,16 @@
 .worksBlock {
     min-height: 100vh;
-    background-color: #9ad9c6;
+    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
 }
+
 .worksContainer {
     flex-direction: column;
     justify-content: flex-start;
     border: 1px solid;
 }
-.title {
 
-}
+
+
 .works {
     border: 1px solid;
     width: 100%;
@@ -18,4 +19,10 @@
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
+}
+
+@media screen and (max-width: 1179px) {
+    .works {
+        justify-content: center;
+    }
 }
