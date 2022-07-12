@@ -1,0 +1,73 @@
+.work {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+
+  h3, p {
+    margin-top: 10px;
+  }
+
+  .worksPhotoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-color: gray;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    ::before {
+      position: absolute;
+      content: "";
+      background-color: black;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.4;
+    }
+
+    a {
+      width: 50px;
+      background-color: #9ad9c6;
+      position: relative;
+      z-index: 1;
+    }
+  }
+
+  .worksInfo {
+    padding: 25px 20px;
+    background-color: #414141;
+
+    .workTitle {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 16px;
+      letter-spacing: 1px;
+      margin: 0 0 5px;
+      line-height: 1.2;
+      color: white;
+    }
+
+    .description {
+      font-family: 'Poppins', sans-serif;
+      font-size: 18px;
+      line-height: 1.4;
+      font-weight: 400;
+      color: white;
+    }
+
+  }
+}
+
+
+
+
+
+
+
