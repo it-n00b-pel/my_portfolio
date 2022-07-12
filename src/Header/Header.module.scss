@@ -1,9 +1,21 @@
-@import "src/common/styles/sass/variables.scss";
+@import "./src/common/styles/sass/variables.scss";
+@import "./src/common/styles/sass/mixins";
 
 .header {
-    height: 80px;
-    background-color: $bgColor;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .nick a {
+    text-decoration: none;
+    @include text($titleFontFamily, 48px, 1.4);
+    font-weight: 700;
+  }
+
+  .nick a:hover {
+    color: $mainColor;
+  }
 }

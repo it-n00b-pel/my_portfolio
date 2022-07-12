@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Main.module.scss';
-import styleContainer from '../../src/common/styles/Container.module.css';
+import styleContainer from '../common/styles/Container.module.scss';
 import photo_skills from '../assets/img/photoSkills.png';
 
 const Main = () => {
