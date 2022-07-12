@@ -5,7 +5,7 @@ type WorkPropsType = {
     title: string
     img?: string
     text: string
-    style:  {
+    style: {
         backgroundImage: string
     }
 }
@@ -17,10 +17,10 @@ const Work = (props: WorkPropsType) => {
                 {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a href="">Watch</a>
             </div>
-           <div className={style.worksInfo}>
-               <h3 className={style.workTitle}>{props.title}</h3>
-               <p className={style.description}>{props.text}</p>
-           </div>
+            <div className={style.worksInfo}>
+                <h3 className={style.workTitle}>{props.title}</h3>
+                <p className={style.description}>{props.text}</p>
+            </div>
         </div>
     );
 };
