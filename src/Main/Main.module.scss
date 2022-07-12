@@ -1,0 +1,33 @@
+@import "src/common/styles/sass/variables.scss";
+
+.mainBlock {
+  //height: 100vh;
+  background-color: $bgColor;
+  color: $textColor;
+
+  .personInfo {
+    width: 400px;
+  }
+
+  .personInfo span {
+    font-size: 36px;
+  }
+
+  .personInfo h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 48px;
+  }
+
+  .personPhoto {
+    max-width: 900px;
+  }
+
+  .personPhoto img {
+    width: 100%;
+  }
+}
+
+
+
+

@@ -1,5 +1,5 @@
 import React from "react";
-import style from './Skills.module.css'
+import style from './Skills.module.scss'
 import styleContainer from '../../src/common/styles/Container.module.css'
 import Skill from "./Skill/Skill";
 import Title from '../common/components/Title';
@@ -17,7 +17,7 @@ const Skills = () => {
                     <Skill title={"React"}/>
 
                 </div>
-                <span className={style.description}>{}</span>
+                {/*<span className={style.description}>{}</span>*/}
             </div>
         </div>
     );
