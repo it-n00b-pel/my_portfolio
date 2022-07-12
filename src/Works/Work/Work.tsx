@@ -14,6 +14,7 @@ const Work = (props: WorkPropsType) => {
     return (
         <div className={style.work}>
             <div className={style.worksPhotoContainer} style={props.style}>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a href="">Watch</a>
             </div>
            <div className={style.worksInfo}>
