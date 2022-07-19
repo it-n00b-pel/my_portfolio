@@ -1,20 +1,38 @@
-import React from "react";
-import style from './Skills.module.scss'
-import styleContainer from '../common/styles/Container.module.scss'
-import Skill from "./Skill/Skill";
+import React from 'react';
+import style from './Skills.module.scss';
+import styleContainer from '../common/styles/Container.module.scss';
+import Skill from './Skill/Skill';
 import Title from '../common/components/Title';
+import html from '../assets/img/icons/html.svg';
+import css from '../assets/img/icons/css.svg';
+import react from '../assets/img/icons/react.svg';
+import redux from '../assets/img/icons/redux.svg';
+import git from '../assets/img/icons/github.svg';
+import ts from '../assets/img/icons/ts.svg';
+import js from '../assets/img/icons/js.svg';
+import mui from '../assets/img/icons/mui.svg';
+import axios from '../assets/img/icons/icons8-настройки-api-96.png';
+
 
 
 const Skills = () => {
     return (
-        <div className={style.skillsBlock}>
+        <div className={style.skillsBlock} id="skills">
             <div className={`${style.skillsContainer} ${styleContainer.container}`}>
-                <Title title={"Skills"}/>
+                <Title title={'Skills'}/>
                 <div className={style.skills}>
-                    <Skill title={"HTML"}/>
-                    <Skill title={"JS"}/>
-                    <Skill title={"CSS"}/>
-                    <Skill title={"React"}/>
+                    <Skill title={'HTML5'} img={html}/>
+                    <Skill title={'CSS3/SCSS'} img={css}/>
+                    <Skill title={'React'} img={react}/>
+                    <Skill title={'Redux'} img={redux}/>
+                    <Skill title={'Js'} img={js}/>
+                    <Skill title={'Ts'} img={ts}/>
+                    <Skill title={'Material UI'} img={mui}/>
+                    <Skill title={'Git'} img={git}/>
+                    <Skill title={'Axios'} img={axios}/>
+
+
+
 
                 </div>
                 {/*<span className={style.description}>{}</span>*/}
