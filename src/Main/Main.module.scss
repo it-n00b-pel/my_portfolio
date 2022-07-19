@@ -4,6 +4,12 @@
   background-color: $bgColor;
   color: $textColor;
   margin-top: 20px;
+  @media screen and (max-width: 1250px) {
+    margin-top: 40px;
+  }
+  @media screen and (max-width: 1034px) {
+    margin-top: 60px;
+  }
 
   .personInfo {
     width: 400px;
@@ -20,6 +26,7 @@
 
     & p {
       font-size: 18px;
+      margin-top: 20px;
     }
   }
 
