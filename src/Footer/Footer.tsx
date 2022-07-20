@@ -4,6 +4,7 @@ import telegram from '../assets/img/icons/telegram.png';
 import facebook from '../assets/img/icons/facebook.svg';
 import phone from '../assets/img/icons/phone.svg';
 import linkedin from '../assets/img/icons/линкедин.svg';
+import instagram from '../assets/img/icons/instagram.svg';
 
 const Footer = () => {
     return (
@@ -21,6 +22,11 @@ const Footer = () => {
                     <div className={style.icon}>
                         <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
                             <img src={facebook} alt=""/>
+                        </a>
+                    </div>
+                    <div className={style.icon}>
+                        <a href="https://www.instagram.com/it.n00b.pel/" target="_blank" rel="noreferrer">
+                            <img src={instagram} alt=""/>
                         </a>
                     </div>
                     <div className={style.icon}>
