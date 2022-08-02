@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Main.module.scss';
 import styleContainer from '../common/styles/Container.module.scss';
-import photo_skills from '../assets/img/photoSkills.png';
+import me from '../assets/img/_me.png';
 
 const Main = () => {
     return (
@@ -20,7 +20,7 @@ const Main = () => {
                         Open for your suggestions.</p>
                 </div>
                 <div className={style.personPhoto}>
-                    <img src={photo_skills} alt=""/>
+                    <img src={me} alt=""/>
                 </div>
             </div>
         </div>
