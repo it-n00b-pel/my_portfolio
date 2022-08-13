@@ -7,6 +7,7 @@
   align-items: center;
   color: $textColor;
   padding: 10px;
+
   .footerBlock {
     width: 80%;
     display: flex;
@@ -32,8 +33,14 @@
       .icon img {
         width: 40px;
         height: 40px;
+        transition: 0.2s;
+      }
+
+      img:hover {
+        transform: scale(1.2);
       }
     }
+
     p {
       font-size: 12px;
     }

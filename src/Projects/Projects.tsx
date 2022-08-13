@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import todoImage from '../assets/img/todolist.png';
 import socialImage from '../assets/img/socialNetWork.jpg';
+import card from '../assets/img/cards.png';
 import style from './Projects.module.scss';
 import Title from '../common/components/Title';
 
@@ -16,6 +17,10 @@ const Projects: React.FC = () => {
     };
     const socialNet = {
         backgroundImage: `url(${todoImage})`,
+    };
+
+    const cards = {
+        backgroundImage: `url(${card})`,
     };
     return (
         <div id={'projects'} className={`${style.projectBlock}`}>
@@ -50,7 +55,7 @@ const Projects: React.FC = () => {
 
                 <Carousel.Item>
                     <div className={style.project}>
-                        <div className={style.projectPhotoContainer}>
+                        <div className={style.projectPhotoContainer} style={cards}>
                             <a href="https://github.com/1t-n00b" >Watch</a>
                         </div>
                         <div className={style.projectInfo}>
