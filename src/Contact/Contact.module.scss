@@ -2,7 +2,6 @@
 
 .contactBlock {
   background-color: $bgSecondColor;
-  //height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,6 +15,7 @@
     height: 480px;
     width: 80%;
     padding-bottom: 30px;
+
     & input, textarea {
       width: 100%;
       max-width: 450px;
@@ -23,10 +23,19 @@
       border: none;
       outline: none;
       font-size: 18px;
+      background-color: $bgColor;
+      color: $textColor;
     }
 
     & input {
       height: 35px;
+    }
+
+    & input:-webkit-autofill {
+      -webkit-box-shadow: 0 0 0 1000px $bgColor inset;
+      -webkit-text-fill-color: $textColor;;
+      //appearance: menulist-button;
+      //background: $bgColor !important;
     }
 
     & textarea {
@@ -44,6 +53,7 @@
       border-radius: 5px;
       border: none;
     }
+
     & button:active {
       background-color: $primaryColor;
     }
