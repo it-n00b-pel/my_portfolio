@@ -4,6 +4,7 @@ import styleContainer from '../common/styles/Container.module.scss';
 import me from '../assets/img/me.png';
 import {Fade} from 'react-awesome-reveal';
 import Typewriter from 'typewriter-effect';
+import Tilt from 'react-parallax-tilt';
 
 const Main = () => {
     return (
@@ -35,9 +36,11 @@ const Main = () => {
                 </Fade>
 
                 <Fade direction="right">
-                    <div className={style.personPhoto}>
-                        <img src={me} alt=""/>
-                    </div>
+                    <Tilt tiltMaxAngleX={8} tiltMaxAngleY={8}>
+                        <div className={style.personPhoto}>
+                            <img src={me} alt=""/>
+                        </div>
+                    </Tilt>
                 </Fade>
             </div>
         </div>

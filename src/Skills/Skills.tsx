@@ -12,8 +12,7 @@ import ts from '../assets/img/icons/ts.svg';
 import js from '../assets/img/icons/js.svg';
 import mui from '../assets/img/icons/mui.svg';
 import axios from '../assets/img/icons/icons8-настройки-api-96.png';
-
-
+import Tilt from 'react-parallax-tilt';
 
 const Skills = () => {
     return (
@@ -21,19 +20,15 @@ const Skills = () => {
             <div className={`${style.skillsContainer} ${styleContainer.container}`}>
                 <Title title={'Skills'}/>
                 <div className={style.skills}>
-                    <Skill title={'HTML5'} img={html}/>
-                    <Skill title={'CSS3/SCSS'} img={css}/>
-                    <Skill title={'React'} img={react}/>
-                    <Skill title={'Redux'} img={redux}/>
-                    <Skill title={'Js'} img={js}/>
-                    <Skill title={'Ts'} img={ts}/>
-                    <Skill title={'Material UI'} img={mui}/>
-                    <Skill title={'Git'} img={git}/>
-                    <Skill title={'Axios'} img={axios}/>
-
-
-
-
+                    <Tilt tiltMaxAngleY={8} tiltMaxAngleX={8}> <Skill title={'HTML5'} img={html}/></Tilt>
+                    <Tilt tiltMaxAngleY={8} tiltMaxAngleX={8}> <Skill title={'CSS3/SCSS'} img={css}/></Tilt>
+                    <Tilt tiltMaxAngleY={8} tiltMaxAngleX={8}><Skill title={'React'} img={react}/></Tilt>
+                    <Tilt tiltMaxAngleY={8} tiltMaxAngleX={8}> <Skill title={'Redux'} img={redux}/></Tilt>
+                    <Tilt tiltMaxAngleY={8} tiltMaxAngleX={8}><Skill title={'Js'} img={js}/></Tilt>
+                    <Tilt tiltMaxAngleY={8} tiltMaxAngleX={8}><Skill title={'Ts'} img={ts}/></Tilt>
+                    <Tilt tiltMaxAngleY={8} tiltMaxAngleX={8}> <Skill title={'Material UI'} img={mui}/></Tilt>
+                    <Tilt tiltMaxAngleY={8} tiltMaxAngleX={8}> <Skill title={'Git'} img={git}/></Tilt>
+                    <Tilt tiltMaxAngleY={8} tiltMaxAngleX={8}> <Skill title={'Axios'} img={axios}/></Tilt>
                 </div>
                 {/*<span className={style.description}>{}</span>*/}
             </div>
