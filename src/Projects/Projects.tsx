@@ -46,7 +46,7 @@ const Projects: React.FC = () => {
                     <Carousel.Item>
                         <div className={style.project}>
                             <div className={style.projectPhotoContainer} style={socialNet}>
-                                <a href="https://github.com/1t-n00b">Watch</a>
+                                <a href="https://github.com/1t-n00b" rel="noreferrer">Watch</a>
                             </div>
                             <div className={style.projectInfo}>
                                 <h3>Second slide label</h3>
@@ -60,7 +60,7 @@ const Projects: React.FC = () => {
                     <Carousel.Item>
                         <div className={style.project}>
                             <div className={style.projectPhotoContainer} style={cards}>
-                                <a href="https://github.com/1t-n00b">Watch</a>
+                                <a href="https://github.com/1t-n00b" rel="noreferrer">Watch</a>
                             </div>
                             <div className={style.projectInfo}>
                                 <h3>Third slide label</h3>
