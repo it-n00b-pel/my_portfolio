@@ -24,7 +24,7 @@ const Projects: React.FC = () => {
         backgroundImage: `url(${card})`,
     };
     return (
-        <div id={'projects'} className={`${style.projectBlock}`}>
+        <div id="projects" className={`${style.projectBlock}`}>
             <Title title={'My Projects'}/>
             <Fade direction="down">
                 <Carousel activeIndex={index} onSelect={handleSelect}>
