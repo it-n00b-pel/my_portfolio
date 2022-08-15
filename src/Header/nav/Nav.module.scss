@@ -4,6 +4,25 @@
   width: 590px;
   display: flex;
   justify-content: space-between;
+  transition: 0.5s;
+  @media screen and (max-width: 710px) {
+    max-width: 500px;
+  }
+  @media screen and (max-width: 660px) {
+    max-width: 450px;
+  }
+  @media screen and (max-width: 600px) {
+   max-width: 380px;
+  }
+  @media screen and (max-width: 550px) {
+    max-width: 350px;
+  }
+  @media screen and (max-width: 500px) {
+    max-width: 300px;
+  }
+  @media screen and (max-width: 400px) {
+    max-width: 270px;
+  }
 
   .link {
     color: #E4E4E4;

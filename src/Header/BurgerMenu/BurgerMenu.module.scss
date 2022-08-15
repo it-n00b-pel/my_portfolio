@@ -1,0 +1,20 @@
+@import "./src/common/styles/sass/variables.scss";
+
+.burgerMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.burgerMenu a {
+  text-decoration: none;
+  font-size: 32px;
+  color: white;
+  left: 0;
+  font-weight: 700
+}
+
+.burgerMenu a:hover {
+  color: $mainColor;
+}
