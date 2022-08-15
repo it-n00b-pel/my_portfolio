@@ -4,7 +4,7 @@ import {Burger} from '@mantine/core';
 import burger from './BurgerMenu.module.scss';
 
 const BurgerMenu: React.FC = () => {
-    const [opened, setOpened] = useState(true);
+    const [opened, setOpened] = useState(false);
     return (
         <div className={burger.burgerMenu}>
             {opened ?
