@@ -5,8 +5,9 @@ import styleContainer from '../common/styles/Container.module.scss';
 
 const Header = () => {
     return (
-        <div className={styleContainer.container}>
+        // <div className={styleContainer.container}>
             <div className={header.header}>
+                <div className={styleContainer.container}>
                 <div className={header.nick}>
                     <a href="https://github.com/1t-n00b" target="_blank" rel="noreferrer">it.n00b.pel</a>
                 </div>
@@ -14,7 +15,7 @@ const Header = () => {
             </div>
 
 
-        </div>
+         </div>
     );
 };
 
