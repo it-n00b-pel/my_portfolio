@@ -54,6 +54,10 @@
       border: none;
     }
 
+    .blockBtn {
+      background-color: #9b9c9f;
+    }
+
     & button:active {
       background-color: $primaryColor;
     }
