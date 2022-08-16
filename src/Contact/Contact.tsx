@@ -3,16 +3,17 @@ import style from './Contact.module.scss';
 import Title from '../common/components/Title';
 import emails from '@emailjs/browser';
 
-const a = process.env.REACT_APP_SERVICE_ID || '';
-const b = process.env.REACT_APP_TEMPLATE_ID || '';
-const c = process.env.REACT_APP_PUBLIC_KEY || '';
+const SERVICE_ID = process.env.REACT_APP_SERVICE_ID || '';
+const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID || '';
+const PUBLIC_KEY = process.env.REACT_APP_PUBLIC_KEY || '';
+
 const Contact = () => {
     const [isBlock, setIsBlock] = useState(false);
     const form = useRef('');
     const sendEmail = (e: any) => {
         e.preventDefault();
         setIsBlock(true);
-        emails.sendForm(a, b, form.current, c)
+        emails.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
