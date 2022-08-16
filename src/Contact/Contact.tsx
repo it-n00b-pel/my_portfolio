@@ -3,11 +3,15 @@ import style from './Contact.module.scss';
 import Title from '../common/components/Title';
 import emails from '@emailjs/browser';
 
+const a = process.env.REACT_APP_SERVICE_ID || '';
+const b = process.env.REACT_APP_TEMPLATE_ID || '';
+const c = process.env.REACT_APP_PUBLIC_KEY || '';
 const Contact = () => {
+
     const form = useRef('');
     const sendEmail = (e: any) => {
         e.preventDefault();
-        emails.sendForm('service_oslaeln', 'template_cchcvcm', form.current, 'zyj2Twca9QtlKiKkL')
+        emails.sendForm(a, b, form.current, c)
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
