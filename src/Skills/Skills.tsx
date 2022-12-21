@@ -11,6 +11,7 @@ import git from '../assets/img/icons/github.svg';
 import ts from '../assets/img/icons/ts.svg';
 import js from '../assets/img/icons/js.svg';
 import mui from '../assets/img/icons/mui.svg';
+import mantine from '../assets/img/icons/mantine.svg';
 import axios from '../assets/img/icons/icons8-настройки-api-96.png';
 import Tilt from 'react-parallax-tilt';
 
@@ -27,6 +28,7 @@ const Skills = () => {
                     <Tilt tiltMaxAngleY={8} tiltMaxAngleX={8}><Skill title={'Js'} img={js}/></Tilt>
                     <Tilt tiltMaxAngleY={8} tiltMaxAngleX={8}><Skill title={'Ts'} img={ts}/></Tilt>
                     <Tilt tiltMaxAngleY={8} tiltMaxAngleX={8}> <Skill title={'Material UI'} img={mui}/></Tilt>
+                    <Tilt tiltMaxAngleY={8} tiltMaxAngleX={8}> <Skill title={'Ant Design'} img={mantine}/></Tilt>
                     <Tilt tiltMaxAngleY={8} tiltMaxAngleX={8}> <Skill title={'Git'} img={git}/></Tilt>
                     <Tilt tiltMaxAngleY={8} tiltMaxAngleX={8}> <Skill title={'Axios'} img={axios}/></Tilt>
                 </div>
